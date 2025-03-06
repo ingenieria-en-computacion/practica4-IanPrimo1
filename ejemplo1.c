@@ -8,7 +8,7 @@ int main(){
     arreglo = (int*)malloc(num *sizeof(int));
     if(arreglo != NULL){
         printf
-        ("Vector reservado:\n\t[");
+        ("Vector reservo:\n\t[");
         for(cont =0; cont <num; cont++){
             printf("\t%d", *(arreglo + cont));            
         }
