@@ -1,13 +1,12 @@
 #include "nodo.h"
 #include <stdlib.h>
-
+#include <stdio.h>
 nodo* crear_nodo(int dato){
     nodo *n = (nodo*) malloc(sizeof(nodo));
     n->dato= dato;
     n->sig = NULL;
     return n;
 }
-
 
 void borrar_nodo(nodo* n){
     if(n->sig=NULL){
